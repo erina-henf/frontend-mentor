@@ -1,0 +1,15 @@
+@media screen and (min-with: 700px) {
+
+
+}
+.colors {
+  background-color: #c73a0f;
+  background-color: #1ea475;
+
+  background-color: #fcf9f7; /*Rose 50*/
+  background-color: hsl(13, 31%, 94%); /*Rose 100*/
+  background-color: hsl(14, 25%, 72%); /*Rose 300*/
+  background-color: hsl(7, 20%, 60%); /*Rose 400*/
+  background-color: hsl(12, 20%, 44%); /*Rose 500*/
+  background-color: hsl(14, 65%, 9%); /*Rose 900*/
+}
