@@ -3,75 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/style.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Product list with cart</title>
-  styl
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap'); /*ändra ej*/
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+
+<body class="red-hat-text-all">
   <main class="desserts">
     <h1>Desserts</h1>
     <div>
-      Waffle with Berries
-      Waffle
-      6.50
-      Add to Cart
-    </div>
-    <div>
-      Vanilla Bean Crème Brûlée
-      Crème Brûlée
-      7.00
-      Add to Cart
-    </div>
-    <div>
-      Macaron Mix of Five
-      Macaron
-      8.00
-      Add to Cart
-    </div>
-    <div>
-      Classic Tiramisu
-      Tiramisu
-      5.50
-      Add to Cart
-    </div>
-    <div>
-      Pistachio Baklava
-      Baklava
-      4.00
-      Add to Cart
-    </div>
-    <div>
-      Lemon Meringue Pie
-      Pie
-      5.00
-      Add to Cart
-    </div>
-    <div>
-      Red Velvet Cake
-      Cake
-      4.50
-      Add to Cart
-    </div>
-    <div>
-      Salted Caramel Brownie
-      Brownie
-      4.50
-      Add to Cart
-    </div>
-    <div>
-      Vanilla Panna Cotta
-      Panna Cotta
-      6.50
-      Add to Cart
-    </div>
+      <img src="assets/images/image-waffle-mobile.jpg" alt="Waffles on a plate, topped with pieces of fresh strawberry">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Waffle</a>
+      <h2>Waffle with Berries</h2>
+      <p class="price">6.50</p>
 
+    </div>
+    <div>
+      <img src="assets/images/image-creme-brulee-mobile.jpg" alt="Two small oval Crème Brûlée pots on a tray">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Crème Brûlée</a>
+      <h2>Vanilla Bean Crème Brûlée</h2>
+      <p class="price">7.00</p>
+
+    </div>
+    <div>
+      <img src="assets/images/image-macaron-mobile.jpg" alt="Macarons in different colours">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Macaron</a>
+      <h2>Macaron Mix of Five</h2>
+      <p class="price">8.00</p>
+    </div>
+    <div>
+      <img src="assets/images/image-tiramisu-mobile.jpg" alt="Tiramisu">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Tiramisu</a>
+      <h2>Classic Tiramisu</h2>
+      <p class="price">5.50</p>
+    </div>
+    <div>
+      <img src="assets/images/image-baklava-mobile.jpg" alt="Pistachio Baklava cut in triangles, on a plate">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Baklava</a>
+      <h2>Pistachio Baklava</h2>
+      <p class="price">4.00</p>
+    </div>
+    <div>
+      <img src="assets/images/image-meringue-mobile.jpg" alt="Lemon Meringue Pie">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Pie</a>
+      <h2>Lemon Meringue Pie</h2>
+      <p class="price">5.00</p>
+    </div>
+    <div>
+      <img src="assets/images/image-cake-mobile.jpg" alt="Red Velvet Cake">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Cake</a>
+      <h2>Red Velvet Cake</h2>
+      <p class="price">4.50</p>
+    </div>
+    <div>
+      <img src="assets/images/image-brownie-mobile.jpg" alt="Brownie">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Brownie</a>
+      <h2>Salted Caramel Brownie</h2>
+      <p class="price">4.50</p>
+    </div>
+    <div>
+      <img src="assets/images/image-panna-cotta-mobile.jpg" alt="Panna Cotta">
+      <div class="cart-container">
+        <div class="trolley-icon"></div>
+        <p>Add to Cart</p>
+      </div>
+      <a href="">Panna Cotta</a>
+      <h2>Vanilla Panna Cotta</h2>
+      <p class="price">6.50</p>
+    </div>
   </main>
 
   <aside>
@@ -83,5 +123,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
     Coded by <a href="#">Erina Henfridsen</a>.
   </div>
+  <script src="js/index.js"></script>
 </body>
 </html>
